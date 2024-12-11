@@ -1,2 +1,2 @@
-# CollegeWebsite
-Marcieg
+# CollegeWebSite
+
