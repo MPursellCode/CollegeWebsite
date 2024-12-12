@@ -1,35 +1,46 @@
 body {
-  line-height: 1.5;
+  line-height: 1;
   font-size: 10px;
+  background-color: rgb(71, 7, 131);
 }
 h1 {
   background-color: black;
   color: aliceblue;
   height: auto;
-  font-size: 7vw;
+  font-size: 48px;
   text-transform: capitalize;
-  margin: 0;
+  margin-top:30px;
   text-align: center;
   font-family: Merriweather;
+  padding:30px
 }
 .grid {
   display: grid;
   height: 100vh;
   grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 3fr 1fr ;
   gap: 3px;
   margin-top: 20px;
 }
 h2 {
   text-decoration: underline;
-  font-size: 3vw;
+  font-size: 48px;
   font-family: merriweather;
   text-align: center;
+ 
+}
+.outline a {
+
+  display:inline-block;
+  width:100px;
+  height:45px;
+  text-align: center;
+  
 }
 .link {
   list-style-type: none;
   text-decoration: none;
-  font-size: 1vw;
+  font-size: 36px;
 }
 .link a:hover {
   color: aquamarine;
@@ -51,7 +62,7 @@ h2 {
 .columnA {
   background-color: black;
   color: aliceblue;
-  font-size: 1vw;
+  font-size: 22px;
   font-family: Righteous;
 }
 .columnB {
@@ -62,7 +73,7 @@ h2 {
 }
 .columnC {
   background-color: black;
-  font-size: 3vw;
+  font-size: 50px;
   color: aliceblue;
   font-family: Righteous;
   text-align: right;
@@ -76,6 +87,7 @@ h2 {
 footer {
   display: block;
   height: auto;
+  grid-column:1/4;
   background-color: black;
   color: aliceblue;
   font-size: 1vw;
@@ -83,5 +95,5 @@ footer {
   font-family: Merriweather;
   font-weight: bolder;
   padding: 3vh;
-  margin: top 0;
+  margin: top 5px;
 }
